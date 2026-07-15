@@ -20,7 +20,7 @@ function NoteHeader({ sortBy, onSort, search, onSearch, categoryFilter, onCatego
 
   return (
     <header className="note-header">
-      <h1 className="note-header__title">یادداشت‌های من ({notes.length})</h1>
+      <h1 className="note-header__title">Notely ({notes.length})</h1>
 
       {/* از lg به بالا: همهٔ کنترل‌ها در گرید */}
       <div className="note-header__controls note-header__controls--desktop">
